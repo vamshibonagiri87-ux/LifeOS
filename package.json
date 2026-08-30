@@ -1,0 +1,14 @@
+{
+  "name": "lifeos-root",
+  "version": "1.0.0",
+  "description": "LifeOS - AI-Powered Personal Obligation Intelligence Platform",
+  "scripts": {
+    "dev:server": "npm --prefix server run dev",
+    "dev:client": "npm --prefix client run dev",
+    "build:client": "npm --prefix client run build",
+    "test:pipeline": "node server/test_pipeline.js"
+  },
+  "keywords": ["lifeos", "ai", "personal-intelligence"],
+  "author": "LifeOS Team",
+  "license": "MIT"
+}
